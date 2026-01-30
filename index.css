@@ -1,0 +1,36 @@
+/* In Progress */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Two column layout */
+main {
+  display: flex;
+  gap: 20px;
+}
+
+main > section {
+  flex: 1;
+}
+
+.roster {
+  list-style: none;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
